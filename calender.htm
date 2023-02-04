@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calender</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+    
+    <script>
+
+    jQuery(function($) {
+  $(document).ready(function() {
+    $('#bttn > button').click(function() {
+      // Changed Code
+      $(this).parent().next().find('.details').toggle("fast");
+    });
+  });
+});
+    </script>
+    
+</head>
+<body>
+  <div>
+    <header tabindex="0"><div class="logo">
+      <a href="https://dentolize.com">
+      <img src="https://dentolize.com/wp-content/uploads/2022/03/Neg-LS.png" alt="" /></a>
+      </div></header>
+    <div id="nav-container">
+      <div class="bg"></div>
+      <div class="button" tabindex="0">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </div>
+      <div id="nav-content" tabindex="0">
+        <ul>
+          
+          <li><a href="index.htm"><i class="fa-solid fa-house"></i>Home</a></li><hr>
+          <li><a href="dashboard.htm"><i class="fa-solid fa-gauge-high"></i>Dashboard</a></li><hr>
+          <li><a href="calender.htm"><i class="fa-solid fa-calendar-days"></i>Calender</a></li><hr>
+          <li><a href="#0"><i class="fa-solid fa-people-group"></i>Patient Profiles</a></li><hr>
+          <li><a href="#0"><i class="fa-solid fa-wallet"></i>Finances</a></li><hr>
+          <li><a href="#0"><i class="fa-solid fa-warehouse"></i>Inventory</a></li><hr>
+          <li><a href="#0"><i class="fa-solid fa-network-wired"></i>Associates</a></li><hr>
+          <li><a href="#0"><i class="fa-solid fa-gear"></i>Settings</a></li><hr>
+          <li><a href="#0"><i class="fa-solid fa-file-contract"></i>Logs</a></li><hr>
+          <li><a href="#0"><i class="fa-solid fa-sack-xmark"></i>Treasury</a></li><hr>
+          <li><a href="#0"><i class="fa-solid fa-chart-pie"></i>Analytics</a></li><hr>
+          <li><a href="#0"><i class="fa-solid fa-clock"></i>Reminders</a></li><hr>
+          <li><a href="#0"><i class="fa-solid fa-box"></i>Lab Orders</a></li><hr>
+          <li><a href="#0"><i class="fa-solid fa-envelope"></i>Contact Us</a></li><hr>
+          <li class="small"><a href="#0">Facebook</a><a href="#0">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+  <main>
+  <div>
+
+  </div>
+    
+        
+        <div class="contenttop"> <h3>The Ultimate User Manual </h3>
+            <h5>Unlock the Full Potential of Dentolize: A Guide to Managing Your Dental Clinic</h5>
+        </div>
+        <div id="sect1" class="section">
+            <h4>Calender </h4>
+            <div    id="bttn" ;>
+            <h4 class="subsuction">1- Top Bar</h4>
+            <button >🔎 Show Img</button></div>
+        <div>
+          <p class="details" id="abc" style="display:none; width: auto;"><img class="img-load" src="img/cal/cal1.jpg" /></p>
+        </div>
+
+        <ul>
+            <li>in top bar area you can choose the <strong>date range</strong> of the calender - it will be <strong>( today )</strong> by default </li>
+            <li>if you want to show next or past day appoinrments press on the <strong>right </strong>and <strong>left</strong> arrows on top left are of this bar</li>
+            <li>if you pressed on <span style="color:rgb(22,160,133);"><strong>Rooms box</strong></span> you can show the appointments of this room only</li>
+            <li>if you pressed on <span style="color:rgb(22,160,133);"><strong>Doctor's box</strong></span> you can show the appointments of this doctor only</li>
+            <li id="sect2">if want to see all the appointments of specific date range <span style="color:rgb(22,160,133);"><strong>( day- week - month )</strong></span> press on the boutons on right side of top bar</li>
+        </ul >
+
+            
+        </div>
+        <div  class="section">
+            <div    id="bttn" ;>
+            <h4 class="subsuction">2- Making new appointment </h4>
+            <button >🔎 Show Img</button></div>
+        <div>
+          <p class="details" id="abc" style="display:none; width: auto;"><img class="img-load" src="img/cal/cal2.jpg" /></p>
+        </div>
+
+        <ul>
+            <li>in calender page you can make new appointment by <strong>selecting the date</strong> first then you can press on left click mouse boutton in the desire time from the calender <strong>keep pressing</strong> the click until the finshing time then relase the click</li>
+            <li>the appointment form will show up automatically to fill the <strong>details about the patient</strong></li>
+            <li>if the patient is <strong>already registred </strong>before you can choose his file by writting his name or phone or id and it will show up</li>
+            <li>if the patient is <strong>new </strong>you can press on<strong> ( + ) </strong>button beside the search bar on this form and fill the patient info then appointment details</li>
+            <li id="sect3">last thing press on <strong>submit </strong>button to make this appointment</li>
+        </ul>
+            </div>
+            <div  class="section">
+                <div    id="bttn" ;>
+                <h4 class="subsuction">3- Chahnging details of appointment </h4>
+                <button >🔎 Show Img</button></div>
+            <div>
+              <p class="details" id="abc" style="display:none; width: auto;"><img class="img-load" src="img/cal/cal3.jpg" /></p>
+            </div>
+    
+            <ul>
+              <li>If you wish to change any appointment details such as (<span style="color:rgb(22,160,133);">appointment date , time , doctor , room , type</span> ), just click on the patient's appointment, then press on ( <span style="color:rgb(22,160,133);"><strong>edit </strong></span>)&nbsp;</li>
+              <li>Now in this form, you can edit any appointment details, then press on <strong>update </strong>button.</li>
+              <li>if you wish to change the appointment ( <span style="color:rgb(22,160,133);">time , room</span> ) on the same day as the appointment&nbsp;</li>
+              <li id="sect4">Just click on the patient's appointment and <strong>hold </strong>and <strong>drag </strong>it to another time or room &nbsp;</li>
+          </ul>
+            </div>
+            
+            <div class="section">
+                <div    id="bttn" ;>
+                <h4 class="subsuction">4- Veiw appointment details </h4>
+                <button >🔎 Show Img</button></div>
+            <div>
+              <p class="details" id="abc" style="display:none; width: auto;"><img  class="img-load" src="img/cal/cal4.jpg" /></p>
+            </div>
+    
+            <ul>
+              <li>If you wish to view patient appointment details, click on the appointment required then the summary info about the patient will show up and if you press on ( <strong>View </strong>) the full details of this appointment specifically, such as (<span style="color:rgb(22,160,133);">operations,notes, X-ray, prescriptions, finance</span>) &nbsp;will show up.</li>
+              <li id="sect5">If you wish to view <strong>all details</strong> about this patient, just click on his appointment then from this panel you can press on (<span style="color:rgb(22,160,133);">medical, clinical,chart,X-rays,invoices,payments</span>) to view the details.</li>
+          </ul>
+            </div>
+            <div  class="section">
+                <div    id="bttn" ;>
+                <h4 class="subsuction">5- Changing apointments Status </h4>
+                <button >🔎 Show Img</button></div>
+            <div>
+              <p class="details" id="abc" style="display:none; width: auto;"><img class="img-load" src="img/cal/cal5.jpg" /></p>
+            </div>
+    
+            <ul>
+              <li>To change the patient's appointment status, <strong>one click</strong> on his appointment then from this panel<br>In the <strong>status section</strong>, &nbsp;press on which stage this patient is in.</li>
+              <li id="sect6">You can change the appointment status from <strong>dashboard </strong>as well (in appointments section)<br>There is a small <strong>pencil icon</strong> on the right side of each appointment. Press it to change the status or viewing details of this patient.</li>
+          </ul>
+            </div>
+            <div  class="section">
+                <div    id="bttn" ;>
+                <h4  class="subsuction">6- Alert icons on appointment </h4>
+                <button >🔎 Show Img</button></div>
+            <div>
+              <p class="details" id="abc" style="display:none; width: auto;"><img class="img-load" src="img/cal/cal6.jpg" /></p>
+            </div>
+    
+            <ul>
+              <li>Every <strong>small icon</strong> that appears on appointments means different things.&nbsp;</li>
+              <li>example #Alert for ( <span style="color:rgb(22,160,133)"><strong>urgent patient , alert of specific note about this patient ,medical and clinical history, finance alert , lab order</strong></span>)</li>
+              <li>An <strong>urgent </strong>and <strong>alert note</strong> can be created on the appointment form.</li>
+              <li><strong>Medical </strong>and <strong>Clinical </strong>history icons are created automatically if there is any information detailes in the&nbsp;patient file.</li>
+              <li>The<strong> lab order icon</strong> is created automatically if there is a lab order that has not been delivered to the patient yet.&nbsp;</li>
+              <li>A <strong>financial alert</strong>&nbsp;is created automatically if there is an invoice on this without complete payments yet</li>
+              <li>If you <strong>pass your mouse</strong> over the icons, the details of these alerts will show up.</li>
+          </ul>
+            </div>
+            <div class="section">
+              <iframe width="420" height="315"
+              src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
+              </iframe>
+          </div>
+        </main>
+      </div>
+      </body>

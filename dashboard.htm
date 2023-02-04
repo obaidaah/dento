@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+    
+    <script>
+
+    jQuery(function($) {
+  $(document).ready(function() {
+    $('#bttn > button').click(function() {
+      // Changed Code
+      $(this).parent().next().find('.details').toggle("fast");
+    });
+  });
+});
+    </script>
+    
+</head>
+<body>
+  <div>
+    <header tabindex="0"><div class="logo">
+      <a href="https://dentolize.com">
+      <img src="https://dentolize.com/wp-content/uploads/2022/03/Neg-LS.png" alt="" /></a>
+      </div></header>
+    <div id="nav-container">
+      <div class="bg"></div>
+      <div class="button" tabindex="0">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </div>
+      <div id="nav-content" tabindex="0">
+        <ul>
+          
+          <li><a href="index.htm"><i class="fa-solid fa-house"></i>Home</a></li><hr>
+          <li><a href="dashboard.htm"><i class="fa-solid fa-gauge-high"></i>Dashboard</a></li><hr>
+          <li><a href="calender.htm"><i class="fa-solid fa-calendar-days"></i>Calender</a></li><hr>
+          <li><a href="#0"><i class="fa-solid fa-people-group"></i>Patient Profiles</a></li><hr>
+          <li><a href="#0"><i class="fa-solid fa-wallet"></i>Finances</a></li><hr>
+          <li><a href="#0"><i class="fa-solid fa-warehouse"></i>Inventory</a></li><hr>
+          <li><a href="#0"><i class="fa-solid fa-network-wired"></i>Associates</a></li><hr>
+          <li><a href="#0"><i class="fa-solid fa-gear"></i>Settings</a></li><hr>
+          <li><a href="#0"><i class="fa-solid fa-file-contract"></i>Logs</a></li><hr>
+          <li><a href="#0"><i class="fa-solid fa-sack-xmark"></i>Treasury</a></li><hr>
+          <li><a href="#0"><i class="fa-solid fa-chart-pie"></i>Analytics</a></li><hr>
+          <li><a href="#0"><i class="fa-solid fa-clock"></i>Reminders</a></li><hr>
+          <li><a href="#0"><i class="fa-solid fa-box"></i>Lab Orders</a></li><hr>
+          <li><a href="#0"><i class="fa-solid fa-envelope"></i>Contact Us</a></li><hr>
+          <li class="small"><a href="#0">Facebook</a><a href="#0">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+  <main>
+  <div>
+
+  </div>
+    
+        
+        <div class="contenttop"> <h3>The Ultimate User Manual </h3>
+            <h5>Unlock the Full Potential of Dentolize: A Guide to Managing Your Dental Clinic</h5>
+        </div>
+        <div id="sect1" class="section">
+            <h4>Dashboard </h4>
+            <div    id="bttn" ;>
+            <h4 class="subsuction">1- Date Range</h4>
+            <button >🔎 Show Img</button></div>
+        <div>
+          <p class="details" id="abc" style="display:none; width: auto;"><img class="img-load" src="img/dash/dash1.jpg" /></p>
+        </div>
+
+            <ul>
+                <li>The Date range is <strong>"Today"</strong> by default </li>
+                <li>You can Switch the date rang and select the <strong>Date Range</strong> you wish as follows;</li>
+                <li>The <strong>"Right Arrow"</strong> & the <strong>"Left Arrow"</strong> allows you to seamlessly switch the days.</li>
+                <li id="sect2">Click anywhere on this box to select the <strong>Date Range</strong> you wish. </li>
+            </ul>
+
+            
+        </div>
+        <div  class="section">
+            <div    id="bttn" ;>
+            <h4 class="subsuction">2- Appointment's Doctor </h4>
+            <button >🔎 Show Img</button></div>
+        <div>
+          <p class="details" id="abc" style="display:none; width: auto;"><img class="img-load" src="img/dash/dash2.jpg" /></p>
+        </div>
+
+            <ul>
+                <li>If you wish to Tailor the Dashboard for specific <span style="color:rgb(22,160,133);"><strong>Doctor / Dentist / Operator</strong></span>, to show only all the "Appointments, Invoices, Payments"</li>
+                <li>concerning this Doctor, Dentist, or Operator, follow these steps; </li>
+                <li>Click on the <span style="color:rgb(22,160,133);"><strong>"Doctor"</strong></span> box.</li>
+                <li id="sect3">Select the <strong>questionable Doctor</strong>. </li>
+            </ul>
+            </div>
+            <div  class="section">
+                <div    id="bttn" ;>
+                <h4 class="subsuction">3- Invoice Assigned To </h4>
+                <button >🔎 Show Img</button></div>
+            <div>
+              <p class="details" id="abc" style="display:none; width: auto;"><img class="img-load" src="img/dash/dash3.jpg" /></p>
+            </div>
+    
+                <ul>
+                    <li>If you wish to only show the Invoices assigned to a particular user (The user might be the <span style="color:rgb(22,160,133);"><strong>Secretary, Receptionist, Accountant</strong></span>, etc.), follow these steps</li>
+                    <li>Click on the <strong>"Assigned to"</strong> box.</li>
+                    <li id="sect4">Choose the User in question</li>
+                </ul>
+            </div>
+            
+            <div  class="section">
+                <div    id="bttn" ;>
+                <h4 class="subsuction">4- Appointment's Section </h4>
+                <button >🔎 Show Img</button></div>
+            <div>
+              <p class="details" id="abc" style="display:none; width: auto;"><img  class="img-load" src="img/dash/dash4.jpg" /></p>
+            </div>
+    
+                <ul>
+                    
+                        <li><span style="color:rgb(0,0,0);">in this section all the <strong>appointments </strong>will appers of the selected <strong>date and doctor</strong>&nbsp;</span></li>
+                        <li><span style="color:rgb(0,0,0);">if the Doctor <strong>appointments box</strong> left empty this secion will show all the&nbsp;appointments&nbsp;of the day</span></li>
+                        <li><span style="color:rgb(0,0,0);">every appointments will appers with differint <strong>color</strong> accourding to it it is statuts <strong>( </strong></span><span style="color:rgb(22,160,133);"><strong>open - confermid - completed </strong></span><span style="color:rgb(0,0,0);"><strong>....etc)</strong></span></li>
+                        <li id="sect5"><span style="color:rgb(0,0,0);">if you want to change the appointment statuts you can press on the pencil beside </span>each&nbsp;<span style="color:rgb(0,0,0);">appointment and change from this form</span></li>
+                    
+                </ul>
+            </div>
+            <div  class="section">
+                <div    id="bttn" ;>
+                <h4 class="subsuction">5- Invoices's Section </h4>
+                <button >🔎 Show Img</button></div>
+            <div>
+              <p class="details" id="abc" style="display:none; width: auto;"><img class="img-load" src="img/dash/dash5.jpg" /></p>
+            </div>
+    
+            <ul>
+                <li><span style="color:rgb(0,0,0);">all invoices of the <strong>Patients </strong>of the selected date will apper in this section</span></li>
+                <li><span style="color:rgb(0,0,0);">if you press on <strong>( add payment )</strong>&nbsp; new form popup to fill details about the payment if it's (</span><span style="color:rgb(22,160,133);"><strong>cash - card - insurance</strong></span><span style="color:rgb(0,0,0);"> ) and the amount of cash</span></li>
+                <li><span style="color:rgb(0,0,0);">after adding the cash to any invoice - the payments will show up on the <strong>payments section</strong></span></li>
+                <li><span style="color:rgb(0,0,0);">if you want to show the details of this invoice press on <strong>( + )</strong> to show up all <strong>operations </strong>which require to pay in this invoice</span></li>
+                <li><span style="color:rgb(0,0,0);">if you want to <strong>print </strong>the invoice press on the <strong>( print icon )</strong> on the invoice&nbsp;</span></li>
+                <li id="sect6"><span style="color:rgb(0,0,0);">or you can send it to the patient as a link through sms or whatsapp if you press on <strong>QR icon</strong> beside print icon</span></li>
+            </ul>
+            </div>
+            <div  class="section">
+                <div    id="bttn" ;>
+                <h4  class="subsuction">6- Payment's Section </h4>
+                <button >🔎 Show Img</button></div>
+            <div>
+              <p class="details" id="abc" style="display:none; width: auto;"><img class="img-load" src="img/dash/dash6.jpg" /></p>
+            </div>
+    
+            <ul>
+                <li>in this section all <strong>Payments of the&nbsp;Patients</strong>&nbsp;will show up here&nbsp;with the type of payment&nbsp;</li>
+                <li>you can print the payment if you pressed on <strong>( print ) icon</strong></li>
+                <li>or you can send it to the patient as a link through sms or whatsapp if you press on <strong>QR icon</strong> beside print icon</li>
+                <li>Optional : the patient can sign on payment if you press on <strong>( sign )</strong> button</li>
+            </ul>
+            </div>
+            <div class="section">
+              <iframe width="420" height="315"
+              src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
+              </iframe>
+          </div>
+        </main>
+      </div>
+      </body>
